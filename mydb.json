@@ -1,0 +1,45 @@
+{
+  "tables": {
+    "users": {
+      "name": "users",
+      "columns": [
+        {
+          "name": "id",
+          "col_type": "INT"
+        },
+        {
+          "name": "name",
+          "col_type": "STRING"
+        },
+        {
+          "name": "age",
+          "col_type": "INT"
+        }
+      ],
+      "rows": [
+        [
+          {
+            "Integer": 1
+          },
+          {
+            "String": "Alice"
+          },
+          {
+            "Integer": 99
+          }
+        ],
+        [
+          {
+            "Integer": 3
+          },
+          {
+            "String": "Charlie"
+          },
+          {
+            "Integer": 35
+          }
+        ]
+      ]
+    }
+  }
+}

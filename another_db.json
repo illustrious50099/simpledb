@@ -1,0 +1,40 @@
+{
+  "tables": {
+    "users": {
+      "name": "users",
+      "columns": [
+        {
+          "name": "id",
+          "col_type": "INT"
+        },
+        {
+          "name": "name",
+          "col_type": "STRING"
+        },
+        {
+          "name": "age",
+          "col_type": "INT"
+        }
+      ],
+      "rows": []
+    },
+    "new_users": {
+      "name": "new_users",
+      "columns": [
+        {
+          "name": "id",
+          "col_type": "INT"
+        },
+        {
+          "name": "name",
+          "col_type": "STRING"
+        },
+        {
+          "name": "age",
+          "col_type": "INT"
+        }
+      ],
+      "rows": []
+    }
+  }
+}
